@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: black;
+    padding: 2%;
+    padding-bottom: 4%;
+    text-align: center;
+}
+
+#nombre {
+    font-family: cursive;
+    font-size: 40px;
+    margin: 2%;
+    color: white;
+}
+
+.paginas {
+    font-size: 20px;
+    margin-left: 0.5%;
+    margin-top: 5px;
+    margin-right: 0.5%;
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(89, 0, 177);
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgb(89, 0, 177);
+}
+
+a:hover {
+    color: rgb(255, 0, 0);
+    transition: 300ms;
+}
+
+#youtubeLink:hover {
+    color: crimson;
+    transition: 300ms;
+}
+
+#facebookLink:hover {
+    color: rgb(60, 60, 206);
+    transition: 300ms;
+}
+
+#instagramLink:hover {
+    color: rgb(255, 110, 248);
+    transition: 300ms;
+}
+
+.main {
+    margin: 3% 10% 3% 10%;
+    padding: 3%;
+    background-color: rgb(31, 123, 199);
+}
+
+.li-container {
+    margin: 0.5% 0 0 0;
+    padding: 3%;
+    background-color: aqua;
+}
+
+li {
+    list-style: none;
+}
+
+input {
+    resize: none;
+    min-width: 300px;
+    min-height: 65px;
+}
+
+.btn-add {
+    margin: 10% 0 0.5% 0;
+    border: none;
+    background-color: rgb(255, 123, 0);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: rgb(23, 171, 245);
+    color: white;
+    transition: 300ms;
+}
+
+footer {
+    background-color: black;
+    padding: 2%;
+    font-size: 20px;
+}
+
+footer span {
+    color: white;
+}
+
+@media screen and (max-width: 480px) {
+    #nombre {
+        font-family: cursive;
+        font-size: 30px;
+        margin: 2%;
+    }
+    #descripcion {
+        font-size: 10px;
+    }
+
+    footer {
+        padding: 4%;
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (max-width: 300px) {
+    #nombre {
+        font-family: cursive;
+        font-size: 20px;
+        margin: 2%;
+    }
+
+    .paginas {
+        font-size: 10px;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+    }
+
+    footer {
+        padding: 4%;
+    }
+}
